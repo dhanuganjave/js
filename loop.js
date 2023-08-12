@@ -44,11 +44,33 @@ for (let index = 0; index < myarray.length; index++) {
     
 for (let index = 0; index <=20; index++) {
     if(index==5){
-        console.log(`detected 5`)
+       // console.log(`detected 5`)
         continue;
     }
-    console.log(`value of index is:${index}`)
+    //console.log(`value of index is:${index}`)
     
     
 }
 
+let i=0
+while (i<=6) {
+//console.log(`value of index is ${i}`)
+ i=i+2 
+    
+}
+
+
+let array=['superman','ramnath','ganesh']
+let arr=0
+while(arr<=array.length){
+    //console.log(`value is ${array[arr]}`)
+    arr++
+}
+
+let score=0
+
+do {
+    console.log(`score is ${score}`)
+    score++;
+
+}while (score<=10)
