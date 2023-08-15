@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom||with you tube</title>
+</head>
+<body style="background-color : #212121; color: #fff;">
+>
+    <div class="parent">
+        <div class="day">monday</div>
+        <div class="day">tuesday</div>
+        <div class="day">wenesday</div>
+    <div class="day">thusday</div>
+    <div class="day">friday</div>
+    <div class="day">saturday</div>
+    <div class="day">sunday</div>
+    </div>
+</body>
+<script>
+  const parent=document.querySelector('.parent')
+  console.log(parent);
+  console.log(parent.children[1].innerHTML);
+  for(let i=0;i<parent.children.length;i++){
+    console.log(parent.children[i].innerHTML);
+  }
+  parent.children[0].style.color="RED"
+  parent.children[1].style.color="orange"
+  parent.children[2].style.color="blue"
+  parent.children[3].style.color="yellow"
+  parent.children[4].style.color="violet"
+  parent.children[5].style.color="green"
+console.log(parent.firstElementchild);
+console.log(parent.lastElementchild);
+const one=document.querySelector('.day')
+/*console.log(one);
+console.log(one.parentElement)
+
+console.log(one.nextElementSibling)*/
+console.log("NODES:",parent.childnodes)
+
+</script>
+    
+</html>
