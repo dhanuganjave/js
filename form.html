@@ -11,35 +11,35 @@
     <div class="container">
    <h2>REGISTRATION FORM</h2>
    <div class="form-container">
-<form>
+<form action="connect.php" method="post">
 
     <div class="input-name">
         <i class="fa fa-users"></i>
-        <input type="text" placeholder="first name" class="name">
+        <input type="text" placeholder="first name" class="name" name="first name">
         <span>
             <i class="fa fa-users lock"></i>
-            <input type="text" placeholder="last name" class="name">
+            <input type="text" placeholder="last name" class="name" name="last name">
 
         </span>
     </div> 
     <div class="input-name">
         <i class="fa fa-envelope-o lock"></i>
-        <input type="text" placeholder="email" class="name">
+        <input type="text" placeholder="email" class="name" name="email">
     </div>
         
         <div class="input-name">
             <i class="fa fa-unlock-alt lock"></i>
-            <input type="password" placeholder="password" class="name">
+            <input type="password" placeholder="password" class="name" name="password">
         </div>
             <div class="input-name">
                 <i class="fa fa-unlock-alt lock"></i>
-                <input type="password" placeholder="conform password" class="name">
+                <input type="password" placeholder="conform password" class="name" name="password">
                 
             </div>
             <div class="input-name">
-                <input type="radio" class="radio-button" name="r1" >
+                <input type="radio" class="radio-button" name="gender"  value="M" id="male">
                 <label>male</label>
-                <input type="radio" class="radio-button" name="r1" >
+                <input type="radio" class="radio-button" name="gender"  value="f" id="female">
                 <label>female</label>
                 </div>
                 <div class="input-name">
